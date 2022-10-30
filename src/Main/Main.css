@@ -1,0 +1,41 @@
+ .main {
+   background: #282D35;
+   width: 100vw;
+   height: 100vh;
+   margin: auto;
+   display: inline-block;
+   background-image: url(../images/react-icon-large.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: contain;
+ }
+
+ .main-content {
+   width: 40vw;
+   margin: auto;
+ }
+
+
+ .main-title {
+   font-family: 'Inter';
+   text-align: left;
+   font-size: 40px;
+   letter-spacing: -0.05em;
+   color: #FFFFFF;
+ }
+
+
+ .main-facts li {
+   font-family: 'Inter';
+   line-height: 20px;
+   color: #FFFFFF;
+   padding-block: 10px;
+   text-align: left;
+
+ }
+
+ .main-facts>li::marker {
+   text-align: center;
+   font-size: 1.4rem;
+   color: #61DAFB;
+ }
