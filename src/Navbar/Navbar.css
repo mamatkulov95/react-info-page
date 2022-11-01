@@ -16,16 +16,16 @@
   width: 30px;
 }
 
-.nav-logo_text {
-  font-family: 'Inter';
+.nav-logo-text {
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.8px;
   color: #61DAFB;
 
 }
 
 .nav-title {
   color: #DEEBF8;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
 }
