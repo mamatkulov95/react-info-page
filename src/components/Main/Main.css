@@ -1,9 +1,10 @@
  .main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    background: #282D35;
-   width: 100vw;
+   width: 100%;
    height: 100vh;
-   margin: auto;
-   display: inline-block;
    background-image: url(../images/react-icon-large.png);
    background-repeat: no-repeat;
    background-position: right;
@@ -11,8 +12,7 @@
  }
 
  .main-content {
-   width: 40vw;
-   margin: auto;
+   margin-top: 20px;
  }
 
 
@@ -26,7 +26,7 @@
 
 
  .main-facts li {
-   font-family: 'Inter';
+   font-family: 'Inter', sans-serif;
    line-height: 20px;
    color: #FFFFFF;
    padding-block: 10px;
@@ -34,8 +34,8 @@
 
  }
 
- .main-facts>li::marker {
+ .main-items::marker {
    text-align: center;
-   font-size: 1.4rem;
+   font-size: 1.5rem;
    color: #61DAFB;
  }
