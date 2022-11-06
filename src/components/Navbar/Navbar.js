@@ -1,4 +1,4 @@
-import ReactLogo from "../../images/react-icon-small.png";
+import ReactLogo from "../images/react-icon-small.png";
 import "./Navbar.css";
 
 const Navbar = () => {
