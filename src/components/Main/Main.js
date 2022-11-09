@@ -4,7 +4,9 @@ const Main = () => {
   return (
     <div className="main">
       <div className="main-content">
-        <h1 className="main-title">Fun facts about React</h1>
+        <h1 className="main-title">
+          Fun facts about <span style={{ color: "#61dafb" }}>React</span>
+        </h1>
         <ul className="main-facts">
           <li className="main-items">Was first released in 2013</li>
           <li className="main-items">Was originally created by Jordan Walke</li>
