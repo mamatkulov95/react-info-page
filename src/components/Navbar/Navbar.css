@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #21222A;
-
+  background: #21222a;
+  padding: 40px;
+  border-bottom: 1px dashed #318ca4;
 }
 
 .left-nav {
@@ -17,15 +18,14 @@
 }
 
 .nav-logo-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   letter-spacing: -0.8px;
-  color: #61DAFB;
-
+  color: #61dafb;
 }
 
 .nav-title {
-  color: #DEEBF8;
-  font-family: 'Inter', sans-serif;
+  color: #deebf8;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
 }
